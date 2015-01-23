@@ -1,28 +1,39 @@
 // Playground - noun: a place where people can play
 
-class User {
-    let name : [String] = ["kiss","john","arya"]
-    let pass   : [String] = ["11111","22222","33333"]
-    let user1:String
+
+
+class log{
+    var name : [String:String] = ["kiss" : "84870", "john" : "64505", "arya" : "54894"]
+    let Userin:String
     
-    
-    init(name: String){
-        self.user1 = name
+    init(kpuser:String){
+        self.Userin = kpuser
     }
-    
-    func use() -> String {
-        var anser: String = ""
-        for(var i=0; i < name.count ; i++){
-            if(name[i] == user1){
-                anser = pass[i];
+    func kepUserpas() ->String {
+        var Keepering:String = ""
+        for (key,value) in name{
+            if(key == Userin){
+                Keepering=value
             }
         }
-        return anser
+        return Keepering
+    }
+    func Add(userAdd:String, passAdd:String){
+        name[userAdd] = passAdd
+        
+    }
+    func Del(userdel:String){
+        name[userdel] = nil
+        
+    }
+    func Edit(useredit:String, passedit:String){
+        name[useredit]=passedit
     }
     
     
 }
-let User2 = User(name : "kiss")
-User2.use()
-
-
+let win = log(kpuser : "arya")
+win.kepUserpas()
+win.Add("top", passAdd: "1234")
+win.Del("john")
+win.Edit("kiss", passedit: "wowow")
