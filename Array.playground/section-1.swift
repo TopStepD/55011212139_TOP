@@ -44,5 +44,3 @@ if let oldValue = airports.updateValue("Dublin International", forKey: "DUB"){
 // print "The old value for DUB was Dublin."
 
 
-var array1 = ["abc", "bcd", "cdf"]
-for [var i = 0]
