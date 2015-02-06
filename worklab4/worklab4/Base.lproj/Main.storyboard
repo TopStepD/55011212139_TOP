@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="worklab4" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udp-8N-X5w">
+                                <rect key="frame" x="33" y="41" width="37" height="38"/>
+                                <state key="normal" backgroundImage="tnwg-1.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ClOne:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="K0v-Ha-zzE"/>
+                                    <action selector="SumOne:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fUJ-Wq-nHR"/>
+                                    <action selector="clone:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vb0-Tt-TJ4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gq-eg-2Un">
+                                <rect key="frame" x="99" y="41" width="33" height="38"/>
+                                <state key="normal" backgroundImage="images2.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ClTwo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oM1-LO-TDE"/>
+                                    <action selector="SumTwo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kfB-lG-xgf"/>
+                                    <action selector="cltwo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vow-RJ-arN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cL0-v1-Hh2">
+                                <rect key="frame" x="161" y="41" width="38" height="38"/>
+                                <state key="normal" backgroundImage="tnwg-3.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ClThree:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Rct-vf-e1Z"/>
+                                    <action selector="SumThree:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dQG-64-tue"/>
+                                    <action selector="clthree:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cFa-mm-hk9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTT-nH-8Dh">
+                                <rect key="frame" x="110" y="101" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UWZ-1N-6Qv">
+                                <rect key="frame" x="175" y="101" width="10" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKz-kn-90A">
+                                <rect key="frame" x="16" y="101" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttT-pG-iWe">
+                                <rect key="frame" x="100" y="148" width="31" height="27"/>
+                                <state key="normal" backgroundImage="images.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ClReset:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3Gg-fI-mXw"/>
+                                    <action selector="Reset:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Imw-pO-1DC"/>
+                                    <action selector="reset:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nBQ-sl-ltY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <accessibility key="accessibilityConfiguration">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="one" destination="UKz-kn-90A" id="EKA-wx-HuZ"/>
+                        <outlet property="three" destination="UWZ-1N-6Qv" id="I6p-KT-G3j"/>
+                        <outlet property="two" destination="eTT-nH-8Dh" id="CKx-OV-aAP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="238" y="410"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images.jpg" width="204" height="204"/>
+        <image name="images2.jpg" width="117" height="176"/>
+        <image name="tnwg-1.png" width="291" height="436"/>
+        <image name="tnwg-3.png" width="291" height="436"/>
+    </resources>
+</document>
