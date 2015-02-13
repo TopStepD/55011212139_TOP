@@ -10,10 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var one1 = 0
-    var two2 = 0
-    var three3 = 0
-    
+   
     
     
     @IBOutlet weak var one: UILabel!
@@ -25,8 +22,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func clone(sender: AnyObject) {
-        one1 = one1 + 1
-        one.text = String(one1)
+       
         
     }
     

@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udp-8N-X5w">
@@ -27,19 +27,8 @@
                                     <action selector="clone:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vb0-Tt-TJ4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gq-eg-2Un">
-                                <rect key="frame" x="99" y="41" width="33" height="38"/>
-                                <state key="normal" backgroundImage="images2.jpg">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="ClTwo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oM1-LO-TDE"/>
-                                    <action selector="SumTwo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kfB-lG-xgf"/>
-                                    <action selector="cltwo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vow-RJ-arN"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cL0-v1-Hh2">
-                                <rect key="frame" x="161" y="41" width="38" height="38"/>
+                                <rect key="frame" x="193" y="41" width="38" height="38"/>
                                 <state key="normal" backgroundImage="tnwg-3.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -68,7 +57,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttT-pG-iWe">
-                                <rect key="frame" x="100" y="148" width="31" height="27"/>
+                                <rect key="frame" x="101" y="147" width="31" height="27"/>
                                 <state key="normal" backgroundImage="images.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -78,12 +67,23 @@
                                     <action selector="reset:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nBQ-sl-ltY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gq-eg-2Un">
+                                <rect key="frame" x="115" y="41" width="33" height="38"/>
+                                <state key="normal" backgroundImage="images2.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ClTwo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oM1-LO-TDE"/>
+                                    <action selector="SumTwo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kfB-lG-xgf"/>
+                                    <action selector="cltwo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vow-RJ-arN"/>
+                                </connections>
+                            </button>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <accessibility key="accessibilityConfiguration">
                             <bool key="isElement" value="YES"/>
                         </accessibility>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="one" destination="UKz-kn-90A" id="EKA-wx-HuZ"/>
                         <outlet property="three" destination="UWZ-1N-6Qv" id="I6p-KT-G3j"/>
@@ -92,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="238" y="410"/>
+            <point key="canvasLocation" x="161" y="185"/>
         </scene>
     </scenes>
     <resources>
