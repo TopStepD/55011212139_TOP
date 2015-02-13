@@ -11,15 +11,19 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate {
     
     let cellIdentifier = "cellIdentifier"
-    var tableData = ["Bus", "Helicopter", "Truck"]
+    var tableData = ["I-Ya", "Love", "Fighting"]
     
     @IBOutlet weak var tableView: UITableView!
     
     func numberOfSectionsInTableView(tableView: UITableView!) -> Int{
         return 1
     }
-    func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) ->UITableViewCell!{
-        var cell = tableView!.dequeueReusableCellWithIdentifier(self.cellIdentifier)as UITableViewCell
+    func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
+        return tableData.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell!{
+        var cell = tableView.dequeueReusableCellWithIdentifier(self.cellIdentifier) as UITableViewCell
         
         cell.textLabel!.text = self.tableData[indexPath.row]
             var imageName = UIImage(named: tableData[indexPath.row])

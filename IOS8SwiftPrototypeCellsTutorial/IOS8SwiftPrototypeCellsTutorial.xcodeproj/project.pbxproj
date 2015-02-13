@@ -13,9 +13,9 @@
 		FDDE72A21A8DD68600612ACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDE72A11A8DD68600612ACD /* Images.xcassets */; };
 		FDDE72A51A8DD68600612ACD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDDE72A31A8DD68600612ACD /* LaunchScreen.xib */; };
 		FDDE72B11A8DD68600612ACD /* IOS8SwiftPrototypeCellsTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE72B01A8DD68600612ACD /* IOS8SwiftPrototypeCellsTutorialTests.swift */; };
-		FDDE72BC1A8DEBD800612ACD /* Bus.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDE72BA1A8DEBD800612ACD /* Bus.png */; };
-		FDDE72BD1A8DEBD800612ACD /* helicopter.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDE72BB1A8DEBD800612ACD /* helicopter.png */; };
-		FDDE72BF1A8DEBE100612ACD /* Truck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDDE72BE1A8DEBE100612ACD /* Truck.jpg */; };
+		FDDE72CE1A8DF97200612ACD /* I-Ya.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDE72CC1A8DF97200612ACD /* I-Ya.png */; };
+		FDDE72CF1A8DF97200612ACD /* Love.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDE72CD1A8DF97200612ACD /* Love.png */; };
+		FDDE72D11A8DF98500612ACD /* Fighting.png in Resources */ = {isa = PBXBuildFile; fileRef = FDDE72D01A8DF98500612ACD /* Fighting.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,9 @@
 		FDDE72AA1A8DD68600612ACD /* IOS8SwiftPrototypeCellsTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS8SwiftPrototypeCellsTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDE72AF1A8DD68600612ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDDE72B01A8DD68600612ACD /* IOS8SwiftPrototypeCellsTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS8SwiftPrototypeCellsTutorialTests.swift; sourceTree = "<group>"; };
-		FDDE72BA1A8DEBD800612ACD /* Bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bus.png; sourceTree = "<group>"; };
-		FDDE72BB1A8DEBD800612ACD /* helicopter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helicopter.png; sourceTree = "<group>"; };
-		FDDE72BE1A8DEBE100612ACD /* Truck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Truck.jpg; sourceTree = "<group>"; };
+		FDDE72CC1A8DF97200612ACD /* I-Ya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "I-Ya.png"; sourceTree = "<group>"; };
+		FDDE72CD1A8DF97200612ACD /* Love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Love.png; sourceTree = "<group>"; };
+		FDDE72D01A8DF98500612ACD /* Fighting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fighting.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +96,9 @@
 		FDDE72981A8DD68600612ACD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FDDE72BE1A8DEBE100612ACD /* Truck.jpg */,
-				FDDE72BA1A8DEBD800612ACD /* Bus.png */,
-				FDDE72BB1A8DEBD800612ACD /* helicopter.png */,
+				FDDE72D01A8DF98500612ACD /* Fighting.png */,
+				FDDE72CC1A8DF97200612ACD /* I-Ya.png */,
+				FDDE72CD1A8DF97200612ACD /* Love.png */,
 				FDDE72991A8DD68600612ACD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -201,12 +201,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDDE72BD1A8DEBD800612ACD /* helicopter.png in Resources */,
-				FDDE72BC1A8DEBD800612ACD /* Bus.png in Resources */,
 				FDDE72A01A8DD68600612ACD /* Main.storyboard in Resources */,
-				FDDE72BF1A8DEBE100612ACD /* Truck.jpg in Resources */,
 				FDDE72A51A8DD68600612ACD /* LaunchScreen.xib in Resources */,
+				FDDE72CF1A8DF97200612ACD /* Love.png in Resources */,
+				FDDE72D11A8DF98500612ACD /* Fighting.png in Resources */,
 				FDDE72A21A8DD68600612ACD /* Images.xcassets in Resources */,
+				FDDE72CE1A8DF97200612ACD /* I-Ya.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +417,7 @@
 				FDDE72B61A8DD68600612ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDDE72B71A8DD68600612ACD /* Build configuration list for PBXNativeTarget "IOS8SwiftPrototypeCellsTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				FDDE72B91A8DD68600612ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
